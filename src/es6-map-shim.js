@@ -114,7 +114,7 @@
 	this.Map.prototype.forEach = function(callback, context) {
 		var current = this.__first;
 		while (current) {
-			callback.call(context, current.key, current.value, this);
+			callback.call(context, current.value, current.key, this);
 			current = current.next;
 		}
 		return this;

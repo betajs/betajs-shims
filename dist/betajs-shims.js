@@ -1,5 +1,5 @@
 /*!
-betajs-shims - v0.0.1 - 2016-06-03
+betajs-shims - v0.0.2 - 2016-06-03
 Copyright (c) Oliver Friedmann
 Apache-2.0 Software License.
 */
@@ -119,7 +119,7 @@ Apache-2.0 Software License.
 	this.Map.prototype.forEach = function(callback, context) {
 		var current = this.__first;
 		while (current) {
-			callback.call(context, current.key, current.value, this);
+			callback.call(context, current.value, current.key, this);
 			current = current.next;
 		}
 		return this;

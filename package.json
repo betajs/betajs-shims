@@ -15,7 +15,7 @@
         "url": "https://github.com/betajs/betajs-shims/issues"
     },
     "name": "betajs-shims",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This repository includes shims for ECMA Script that are not included in the official shims.",
     "contributors": [
         "Oliver Friedmann"
