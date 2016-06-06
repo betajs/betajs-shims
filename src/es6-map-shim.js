@@ -22,6 +22,7 @@
 			else
 				this.__first = obj;
 			this.__last = obj;
+			this.size++;
 		}
 		return this;
 	};
@@ -38,6 +39,7 @@
 		var obj = this.__data[key];
 		if (obj) {
 			delete this.__data[key];
+			this.size--;
 			if (obj.prev)
 				obj.prev.next = obj.next;
 			else
@@ -54,6 +56,7 @@
 		this.__data = {};
 		this.__first = null;
 		this.__last = null;
+		this.size = 0;
 		return this;
 	};
 
