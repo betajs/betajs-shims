@@ -1,5 +1,5 @@
 /*!
-betajs-shims - v0.0.3 - 2016-06-06
+betajs-shims - v0.0.3 - 2016-10-02
 Copyright (c) Oliver Friedmann
 Apache-2.0 Software License.
 */
@@ -132,6 +132,10 @@ Apache-2.0 Software License.
 	try {
 		return window;
 	} catch (e) {
-		return global;
+		try {
+			return global;
+		} catch (e) {
+			return self;
+		}
 	}
 }).call(this));

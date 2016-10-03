@@ -127,6 +127,10 @@
 	try {
 		return window;
 	} catch (e) {
-		return global;
+		try {
+			return global;
+		} catch (e) {
+			return self;
+		}
 	}
 }).call(this));
