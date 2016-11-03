@@ -8,7 +8,7 @@
     });
 }).call((function () {
 	try {
-		return Element.prototype;
+		return Node.prototype;
 	} catch (e) {
 		return null;
 	}

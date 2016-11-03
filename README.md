@@ -1,4 +1,4 @@
-# betajs-shims 0.0.8
+# betajs-shims 0.0.9
 [![Build Status](https://api.travis-ci.org/betajs/betajs-shims.svg?branch=master)](https://travis-ci.org/betajs/betajs-shims)
 [![Code Climate](https://codeclimate.com/github/betajs/betajs-shims/badges/gpa.svg)](https://codeclimate.com/github/betajs/betajs-shims)
 [![npm version](https://img.shields.io/npm/v/betajs-shims.svg?style=flat)](https://www.npmjs.com/package/betajs-shims)
@@ -91,13 +91,22 @@ We recommend to include the shims mentioned above as well as the shims provided 
 
 
 
-## Contributors
+## Main Contributors
 
 - Oliver Friedmann
-
 
 ## License
 
 Apache-2.0
+
+
+
+
+
+
+## Sponsors
+
+- Ziggeo
+- Browserstack
 
 

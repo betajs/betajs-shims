@@ -26,6 +26,7 @@
 		"test": "grunt check"
 	},
 	"meta": {
+		"sponsors": ["Ziggeo", "Browserstack"],
 		"guid": "7c778681-d9b5-49f8-8ab5-b0d70362eff6",
 		"installdoc": "docsrc/common/install.md",
 		"summarydoc": "docsrc/common/summary.md",
