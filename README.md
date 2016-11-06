@@ -1,4 +1,4 @@
-# betajs-shims 0.0.9
+# betajs-shims 0.0.10
 [![Build Status](https://api.travis-ci.org/betajs/betajs-shims.svg?branch=master)](https://travis-ci.org/betajs/betajs-shims)
 [![Code Climate](https://codeclimate.com/github/betajs/betajs-shims/badges/gpa.svg)](https://codeclimate.com/github/betajs/betajs-shims)
 [![npm version](https://img.shields.io/npm/v/betajs-shims.svg?style=flat)](https://www.npmjs.com/package/betajs-shims)
@@ -65,11 +65,11 @@ We recommend to include the shims mentioned above as well as the shims provided 
 ## Compatability
 | Target | Versions |
 | :----- | -------: |
-| Firefox | 4 - Latest |
+| Firefox | 6 - Latest |
 | Chrome | 15 - Latest |
 | Safari | 4 - Latest |
 | Opera | 12 - Latest |
-| Internet Explorer | 6 - Latest |
+| Internet Explorer | 8 - Latest |
 | Edge | 12 - Latest |
 | iOS | 7.0 - Latest |
 | Android | 4.0 - Latest |

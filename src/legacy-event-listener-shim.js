@@ -58,7 +58,23 @@
 		}
 	};
 	this.dispatchEvent = this.dispatchEvent || function (eventObject) {
-		return this.fireEvent("on" + eventObject.type, eventObject);
+		var type = eventObject.type;
+		var onEvent = "on" + type;
+		try {
+			return this.fireEvent(onEvent, eventObject);
+		} catch (e) {
+			var E = Element;
+			try {
+				E = HTMLElement;
+			} catch (e) {}
+			if (onEvent in E.prototype)
+				throw e;
+			if (this.__eventlisteners && this.__eventlisteners[type]) {
+				for (var i = 0; i < this.__eventlisteners[type].length; ++i) {
+					this.__eventlisteners[type][i].wrapper.call(this, eventObject);
+				}
+			}
+		}
 	};
 }).call((function () {
 	try {
