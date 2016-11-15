@@ -16,12 +16,9 @@ module.exports = function(grunt) {
     .qunitTask("qunit-removal-betajs-shims", './dist/' + dist + '.js', grunt.file.expand('./tests/tests/*.js'), grunt.file.expand("./tests/removals/*.js"))
     .qunitTask("qunit-vanilla", "./tests/removals/empty.js", grunt.file.expand('./tests/tests/*.js'))
     .closureTask(null, ["./dist/" + dist + ".js"])
-    .browserstackTask("browserstack-desktop-removal-betajs-shims", 'tests/tests-removal-betajs-shims.html', {desktop: true, mobile: false})
-    .browserstackTask("browserstack-desktop-betajs-shims", 'tests/tests-betajs-shims.html', {desktop: true, mobile: false})
-    .browserstackTask("browserstack-desktop-es-betajs-shims", 'tests/tests-es-betajs-shims.html', {desktop: true, mobile: false})
-    .browserstackTask("browserstack-mobile-removal-betajs-shims", 'tests/tests-removal-betajs-shims.html', {desktop: false, mobile: true})
-    .browserstackTask("browserstack-mobile-betajs-shims", 'tests/tests-betajs-shims.html', {desktop: false, mobile: true})
-    .browserstackTask("browserstack-mobile-es-betajs-shims", 'tests/tests-es-betajs-shims.html', {desktop: false, mobile: true})
+    .browserstackTask("browserstack-removal-betajs-shims", 'tests/tests-removal-betajs-shims.html', {desktop: true, mobile: true})
+    .browserstackTask("browserstack-betajs-shims", 'tests/tests-betajs-shims.html', {desktop: true, mobile: true})
+    .browserstackTask("browserstack-es-betajs-shims", 'tests/tests-es-betajs-shims.html', {desktop: true, mobile: true})
     .lintTask(null, ['./src/**/*.js', './dist/' + dist + '.js', './Gruntfile.js', './tests/**/*.js'])
     
     /* External Configurations */
