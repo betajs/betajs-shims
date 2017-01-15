@@ -1,6 +1,6 @@
 {
 	"name": "betajs-shims",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"description": "This repository includes shims for ECMA Script that are not included in the official shims.",
 	"contributors": ["Oliver Friedmann"],
 	"devDependencies": {
@@ -16,7 +16,7 @@
 		"grunt-wget": "",
 		"grunt-shell": "",
 		"grunt-template": "",
-	    "betajs-compile": "betajs/betajs-compile"
+	    "betajs-compile": "~0.0.28"
 	},
 	"repository": {
 		"type": "git",
@@ -25,6 +25,7 @@
 	"scripts": {
 		"test": "grunt check"
 	},
+	"main": "dist/betajs-shims.js",
 	"meta": {
 		"sponsors": ["Ziggeo", "Browserstack"],
 		"guid": "7c778681-d9b5-49f8-8ab5-b0d70362eff6",
