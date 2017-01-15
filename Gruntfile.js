@@ -23,7 +23,7 @@ module.exports = function(grunt) {
     
     /* External Configurations */
     .codeclimateTask()
-    .travisTask()
+    .travisTask(null, "0.11")
     
     /* Dependencies */
     .dependenciesTask(null, { github: [

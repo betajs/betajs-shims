@@ -75,7 +75,7 @@ We recommend to include the shims mentioned above as well as the shims provided 
 | Edge | 12 - Latest |
 | iOS | 3.0 - Latest |
 | Android | 2.2 - Latest |
-| NodeJS | 0.10 - Latest |
+| NodeJS | 0.11 - Latest |
 
 
 ## CDN
