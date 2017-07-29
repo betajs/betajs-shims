@@ -12,9 +12,9 @@ module.exports = function(grunt) {
     .uglifyTask('uglify-shims', 'dist/' + dist + '.js', 'dist/' + dist + '.min.js')
 
     /* Testing */
-    .qunitTask("qunit-betajs-shims", './dist/' + dist + '.js', grunt.file.expand('./tests/tests/*.js'))
-    .qunitTask("qunit-removal-betajs-shims", './dist/' + dist + '.js', grunt.file.expand('./tests/tests/*.js'), grunt.file.expand("./tests/removals/*.js"))
-    .qunitTask("qunit-vanilla", "./tests/removals/empty.js", grunt.file.expand('./tests/tests/*.js'))
+    .qunitjsTask("qunit-betajs-shims", ['dist/' + dist + '.js', 'tests/tests'])
+    .qunitjsTask("qunit-removal-betajs-shims", ['tests/node/removals.js'])
+    .qunitjsTask("qunit-vanilla", ['tests/tests'])
     .closureTask(null, ["./dist/" + dist + ".js"])
     .browserstackTask("browserstack-removal-betajs-shims", 'tests/tests-removal-betajs-shims.html', {desktop: true, mobile: true})
     .browserstackTask("browserstack-betajs-shims", 'tests/tests-betajs-shims.html', {desktop: true, mobile: true})

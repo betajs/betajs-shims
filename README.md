@@ -2,7 +2,7 @@
 [![Build Status](https://api.travis-ci.org/betajs/betajs-shims.svg?branch=master)](https://travis-ci.org/betajs/betajs-shims)
 [![Code Climate](https://codeclimate.com/github/betajs/betajs-shims/badges/gpa.svg)](https://codeclimate.com/github/betajs/betajs-shims)
 [![NPM](https://img.shields.io/npm/v/betajs-shims.svg?style=flat)](https://www.npmjs.com/package/betajs-shims)
-
+[![Gitter Chat](https://badges.gitter.im/betajs/betajs-shims.svg)](https://gitter.im/betajs/betajs-shims)
 
 This repository includes shims for ECMA Script that are not included in the official shims.
 
@@ -60,7 +60,7 @@ We recommend to include the shims mentioned above as well as the shims provided 
 | Repository | [https://github.com/betajs/betajs-shims](https://github.com/betajs/betajs-shims) |
 | Blog       | [http://blog.betajs.com](http://blog.betajs.com) | 
 | Twitter    | [http://twitter.com/thebetajs](http://twitter.com/thebetajs) | 
- 
+| Gitter     | [https://gitter.im/betajs/betajs-shims](https://gitter.im/betajs/betajs-shims) | 
 
 
 
@@ -68,11 +68,12 @@ We recommend to include the shims mentioned above as well as the shims provided 
 | Target | Versions |
 | :----- | -------: |
 | Firefox | 3 - Latest |
-| Chrome | 15 - Latest |
+| Chrome | 18 - Latest |
 | Safari | 4 - Latest |
 | Opera | 12 - Latest |
 | Internet Explorer | 6 - Latest |
 | Edge | 12 - Latest |
+| Yandex | Latest |
 | iOS | 3.0 - Latest |
 | Android | 2.2 - Latest |
 | NodeJS | 0.11 - Latest |
