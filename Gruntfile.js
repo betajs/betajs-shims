@@ -18,7 +18,6 @@ module.exports = function(grunt) {
     .closureTask(null, ["./dist/" + dist + ".js"])
     .browserstackTask("browserstack-removal-betajs-shims", 'tests/tests-removal-betajs-shims.html', {desktop: true, mobile: true})
     .browserstackTask("browserstack-betajs-shims", 'tests/tests-betajs-shims.html', {desktop: true, mobile: true})
-    .browserstackTask("browserstack-es-betajs-shims", 'tests/tests-es-betajs-shims.html', {desktop: true, mobile: true})
     .lintTask(null, ['./src/**/*.js', './dist/' + dist + '.js', './Gruntfile.js', './tests/**/*.js'])
     
     /* External Configurations */
@@ -27,9 +26,7 @@ module.exports = function(grunt) {
     
     /* Dependencies */
     .dependenciesTask(null, { github: [
-	    'douglascrockford/JSON-js/json2.js',
-        'es-shims/es5-shim/es5-shim.js',
-        'es-shims/es6-shim/es6-shim.js'
+	    'douglascrockford/JSON-js/json2.js'
      ] })
 
     /* Markdown Files */
