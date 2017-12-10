@@ -15,7 +15,7 @@
         "url": "https://github.com/betajs/betajs-shims/issues"
     },
     "name": "betajs-shims",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "This repository includes shims for ECMA Script that are not included in the official shims.",
     "contributors": [
         "Oliver Friedmann"
@@ -25,7 +25,7 @@
         "grunt": "",
         "grunt-contrib-jshint": "",
         "grunt-contrib-concat": "",
-        "grunt-contrib-uglify": "",
+        "grunt-contrib-uglify": "0.11.1",
         "grunt-contrib-clean": "",
         "grunt-closure-tools": "",
         "qunitjs": "",
