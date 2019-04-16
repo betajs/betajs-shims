@@ -1,5 +1,5 @@
 {
-    "homepage": "http://betajs.com",
+    "homepage": "https://betajs.com",
     "license": "Apache-2.0",
     "licenses": [
         {
@@ -18,14 +18,15 @@
     "version": "0.0.14",
     "description": "This repository includes shims for ECMA Script that are not included in the official shims.",
     "contributors": [
-        "Oliver Friedmann"
+        "Oliver Friedmann",
+        "Pablo Iglesias"
     ],
     "devDependencies": {
         "lodash": "",
         "grunt": "",
         "grunt-contrib-jshint": "",
         "grunt-contrib-concat": "",
-        "grunt-contrib-uglify": "0.11.1",
+        "grunt-contrib-uglify": "^4.0.0",
         "grunt-contrib-clean": "",
         "grunt-closure-tools": "",
         "qunitjs": "",
@@ -39,12 +40,14 @@
         "url": "git://github.com/betajs/betajs-shims.git"
     },
     "scripts": {
+        "relink": "npm link betajs-compile",
+        "reinstall": "rm -f package-lock.json && rm -rf node_modules && npm i && npm run relink",
         "test": "grunt check"
     },
     "main": "dist/betajs-shims.js",
     "meta": {
-        "blog": "http://blog.betajs.com",
-        "twitter": "http://twitter.com/thebetajs",
+        "blog": "https://blog.betajs.com",
+        "twitter": "https://twitter.com/thebetajs",
         "sponsors": [
             "Ziggeo",
             "Browserstack"
