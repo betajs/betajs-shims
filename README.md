@@ -1,4 +1,4 @@
-# betajs-shims 0.0.14
+# betajs-shims 0.0.15
 [![Build Status](https://api.travis-ci.org/betajs/betajs-shims.svg?branch=master)](https://travis-ci.org/betajs/betajs-shims)
 [![Code Climate](https://codeclimate.com/github/betajs/betajs-shims/badges/gpa.svg)](https://codeclimate.com/github/betajs/betajs-shims)
 [![NPM](https://img.shields.io/npm/v/betajs-shims.svg?style=flat)](https://www.npmjs.com/package/betajs-shims)
@@ -47,11 +47,11 @@ This library should be used in combination with other shim libraries, particular
 ## Links
 | Resource   | URL |
 | :--------- | --: |
-| Homepage   | [http://betajs.com](http://betajs.com) |
+| Homepage   | [https://betajs.com](https://betajs.com) |
 | Git        | [git://github.com/betajs/betajs-shims.git](git://github.com/betajs/betajs-shims.git) |
 | Repository | [https://github.com/betajs/betajs-shims](https://github.com/betajs/betajs-shims) |
-| Blog       | [http://blog.betajs.com](http://blog.betajs.com) | 
-| Twitter    | [http://twitter.com/thebetajs](http://twitter.com/thebetajs) | 
+| Blog       | [https://blog.betajs.com](https://blog.betajs.com) | 
+| Twitter    | [https://twitter.com/thebetajs](https://twitter.com/thebetajs) | 
 | Gitter     | [https://gitter.im/betajs/betajs-shims](https://gitter.im/betajs/betajs-shims) | 
 
 
@@ -89,6 +89,7 @@ This library should be used in combination with other shim libraries, particular
 ## Main Contributors
 
 - Oliver Friedmann
+- Pablo Iglesias
 
 ## License
 

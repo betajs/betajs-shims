@@ -1,64 +1,67 @@
 {
-	"name": "betajs-shims",
-	"version": "0.0.14",
-	"description": "This repository includes shims for ECMA Script that are not included in the official shims.",
-	"contributors": [
-		"Oliver Friedmann",
-		"Pablo Iglesias"
-	],
-	"devDependencies": {
-		"lodash": "",
-		"grunt": "",
-		"grunt-contrib-jshint": "",
-		"grunt-contrib-concat": "",
-		"grunt-contrib-uglify": "^4.0.0",
-		"grunt-contrib-clean": "",
-		"grunt-closure-tools": "",
-		"qunitjs": "",
-		"grunt-wget": "",
-		"grunt-shell": "",
-		"grunt-template": "",
-	    "betajs-compile": "~0.0.28"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/betajs/betajs-shims.git"
-	},
-	"scripts": {
-		"relink": "npm link betajs-compile",
-		"reinstall": "rm -f package-lock.json && rm -rf node_modules && npm i && npm run relink",
-		"test": "grunt check"
-	},
-	"main": "dist/betajs-shims.js",
-	"meta": {
-		"sponsors": ["Ziggeo", "Browserstack"],
-		"guid": "7c778681-d9b5-49f8-8ab5-b0d70362eff6",
-		"installdoc": "docsrc/common/install.md",
-		"summarydoc": "docsrc/common/summary.md",
-		"badges": {
-			"codeclimate": true,
-			"travis": true,
-			"npm": true,
-			"gitter": true
-		},
-		"compatability": {
-			"Firefox": "3 - Latest",
-			"Chrome": "18 - Latest",
-			"Safari": "4 - Latest",
-			"Opera": "12 - Latest",
-			"Internet Explorer": "6 - Latest",
-			"Edge": "12 - Latest",
-			"Yandex": "Latest",
-			"iOS": "3.0 - Latest",
-			"Android": "2.2 - Latest",
-			"NodeJS": "4.0 - Latest"
-		},
-		"tests": {
-			"Test Suite": "http://rawgit.com/betajs/betajs-shims/master/tests/tests.html"
-		},
-		"cdn": {
-			"betajs-shims.js": "http://cdn.rawgit.com/betajs/betajs-shims/master/dist/betajs-shims.js",
-			"betajs-shims.min.js": "http://cdn.rawgit.com/betajs/betajs-shims/master/dist/betajs-shims.min.js"
-		}
-	} 
+    "name": "betajs-shims",
+    "version": "0.0.15",
+    "description": "This repository includes shims for ECMA Script that are not included in the official shims.",
+    "contributors": [
+        "Oliver Friedmann",
+        "Pablo Iglesias"
+    ],
+    "devDependencies": {
+        "lodash": "",
+        "grunt": "",
+        "grunt-contrib-jshint": "",
+        "grunt-contrib-concat": "",
+        "grunt-contrib-uglify": "^4.0.0",
+        "grunt-contrib-clean": "",
+        "grunt-closure-tools": "",
+        "qunitjs": "",
+        "grunt-wget": "",
+        "grunt-shell": "",
+        "grunt-template": "",
+        "betajs-compile": "~0.0.28"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/betajs/betajs-shims.git"
+    },
+    "scripts": {
+        "relink": "npm link betajs-compile",
+        "reinstall": "rm -f package-lock.json && rm -rf node_modules && npm i && npm run relink",
+        "test": "grunt check"
+    },
+    "main": "dist/betajs-shims.js",
+    "meta": {
+        "sponsors": [
+            "Ziggeo",
+            "Browserstack"
+        ],
+        "guid": "7c778681-d9b5-49f8-8ab5-b0d70362eff6",
+        "installdoc": "docsrc/common/install.md",
+        "summarydoc": "docsrc/common/summary.md",
+        "badges": {
+            "codeclimate": true,
+            "travis": true,
+            "npm": true,
+            "gitter": true
+        },
+        "compatability": {
+            "Firefox": "3 - Latest",
+            "Chrome": "18 - Latest",
+            "Safari": "4 - Latest",
+            "Opera": "12 - Latest",
+            "Internet Explorer": "6 - Latest",
+            "Edge": "12 - Latest",
+            "Yandex": "Latest",
+            "iOS": "3.0 - Latest",
+            "Android": "2.2 - Latest",
+            "NodeJS": "4.0 - Latest"
+        },
+        "tests": {
+            "Test Suite": "http://rawgit.com/betajs/betajs-shims/master/tests/tests.html"
+        },
+        "cdn": {
+            "betajs-shims.js": "http://cdn.rawgit.com/betajs/betajs-shims/master/dist/betajs-shims.js",
+            "betajs-shims.min.js": "http://cdn.rawgit.com/betajs/betajs-shims/master/dist/betajs-shims.min.js"
+        }
+    }
 }

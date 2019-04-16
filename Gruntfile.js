@@ -32,11 +32,12 @@ module.exports = function(grunt) {
     /* Markdown Files */
 	.readmeTask()
     .licenseTask()
+	.autoincreasepackageTask(null, "package-source.json")
     .packageTask();
     
 	grunt.initConfig(gruntHelper.config);	
 
-	grunt.registerTask('default', ['package', 'readme', 'license', 'codeclimate', 'travis', 'concat-shims', 'uglify-shims']);
+	grunt.registerTask('default', ['autoincreasepackage', 'package', 'readme', 'license', 'codeclimate', 'travis', 'concat-shims', 'uglify-shims']);
 	grunt.registerTask("qunit", ['qunit-betajs-shims', 'qunit-removal-betajs-shims', 'qunit-vanilla']);
 	grunt.registerTask('check', ['lint', 'qunit']);
 

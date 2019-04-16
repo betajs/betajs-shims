@@ -1,6 +1,6 @@
 /*!
-betajs-shims - v0.0.14 - 2019-04-16
-Copyright (c) Oliver Friedmann
+betajs-shims - v0.0.15 - 2019-04-16
+Copyright (c) Oliver Friedmann,Pablo Iglesias
 Apache-2.0 Software License.
 */
 (function() {
