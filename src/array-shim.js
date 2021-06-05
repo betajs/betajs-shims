@@ -331,7 +331,7 @@
             return -1;
         };
     }
-
+    
     // Production steps of ECMA-262, Edition 5, 15.4.4.15
     // Reference: http://es5.github.io/#x15.4.4.15
     if (!this.lastIndexOf) {
@@ -508,6 +508,13 @@
         Array.isArray = function(arg) {
             return Object.prototype.toString.call(arg) === '[object Array]';
         };
+    }
+
+    // To be able support IE8 need indexOf which was defined above
+    if (!this.includes) {
+      this.includes = function(search) {
+        return !!~this.indexOf(search);
+      }
     }
 
 }).call((function () {
