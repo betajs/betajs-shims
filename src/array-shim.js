@@ -556,7 +556,7 @@
 
             // 8. Return false
             return false;
-        }
+        };
     }
 
 }).call((function () {
