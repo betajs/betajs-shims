@@ -1,6 +1,6 @@
 {
     "name": "betajs-shims",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "description": "This repository includes shims for ECMA Script that are not included in the official shims.",
     "contributors": [
         "Oliver Friedmann",
