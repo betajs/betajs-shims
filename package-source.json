@@ -15,7 +15,6 @@
         "grunt-contrib-clean": "",
         "grunt-closure-tools": "",
         "qunitjs": "",
-        "grunt-wget": "",
         "grunt-shell": "",
         "grunt-template": "",
         "betajs-compile": "~0.0.28"
